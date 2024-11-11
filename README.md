@@ -11,8 +11,7 @@ Welcome to my project portfolio! I am Yash Vijaykumar Gandhi, a mechanical and a
 **Organization**: Bauhaus Luftfahrt e.V., Munich, Germany  
 **Description**: Developed advanced Python-based tools to enhance aircraft interior design, optimizing space within EASA and FAA guidelines. Improved layout accuracy with precise Mass/CoG data sourcing, tailored for A320 configurations.
 
-[View Project Repository](./Work Experiences/Master Thesis - Advanced Aircraft Interior Design)
-
+[View Project Repository](./Work%20Experiences/Master%20Thesis%20-%20Advanced%20Aircraft%20Interior%20Design/)
 ---
 
 ### 2. **PLM and Standard Parts Management Internship**  
@@ -20,7 +19,7 @@ Welcome to my project portfolio! I am Yash Vijaykumar Gandhi, a mechanical and a
 **Organization**: Deutsche Aircraft GmbH, Munich, Germany  
 **Description**: Managed PLM workflows and optimized standard parts for Dornier aircraft. Created detailed 3D and 2D models, updated legacy parts to meet international standards, and ensured documentation accuracy in the parts list.
 
-[View Project Repository](./Work Experiences/PLM and Standard Parts Management Intern)
+[View Project Repository](./Work%20Experiences/PLM%20and%20Standard%20Parts%20Management%20Intern)
 
 ---
 
@@ -44,7 +43,7 @@ Welcome to my project portfolio! I am Yash Vijaykumar Gandhi, a mechanical and a
 **Tools**: CATIA V5 FEA module  
 **Description**: Conducted strength calculations and fatigue analysis on the Morane 893 E-D motor aircraft, using CATIA’s FEA tools. Ensured design adherence to operational constraints and stringent safety standards.
 
-[View Project Repository](./Work Experiences/Research Intern (WIHI))
+[View Project Repository](./Work%20Experiences/Research%20Intern%20(WIHI))
 
 ---
 
