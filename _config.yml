@@ -1,0 +1,52 @@
+# _config.yml
+
+# Site settings
+title: "Your Site Title"
+description: "A short description of your site."
+baseurl: "" # the subpath of your site, e.g., /blog
+url: "https://yourusername.github.io" # the base URL of your site
+
+# Build settings
+theme: minima # Specify the theme; you can change this to any other installed theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Author settings
+author:
+  name: "Your Name"
+  email: "youremail@example.com"
+
+# Social links (optional)
+social:
+  github: yourusername
+  linkedin: your-linkedin-username
+
+# Defaults
+defaults:
+  - scope:
+      path: "" # empty string applies to all files
+    values:
+      layout: "post"
+      author: "Your Name"
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM # GitHub Flavored Markdown
+
+# Permalinks for URLs
+permalink: /:categories/:title/
+
+# Exclude specific files or directories from the build
+exclude:
+  - LICENSE
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Jekyll Feed (for RSS)
+jekyll_feed:
+  path: "/feed.xml"
+
+theme: minimal-mistakes-jekyll
