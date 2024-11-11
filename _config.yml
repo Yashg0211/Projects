@@ -1,31 +1,32 @@
+# _config.yml
+
+remote_theme: "mmistakes/minimal-mistakes" # Add the Minimal Mistakes theme
+plugins:
+  - jekyll-remote-theme # Required for the remote theme to work on GitHub Pages
+  - jekyll-seo-tag
+  - jekyll-feed
+
 # Site settings
-title: My GitHub Pages Site
-description: A brief description of my site
-url: https://yash0211.github.io
-baseurl: "/Projects"
+title: "Your Site Title"
+description: "A description of your site."
+baseurl: "Projects" # Leave empty unless your site is in a subdirectory
+url: "https://yash0211.github.io" # Replace with your GitHub Pages URL
 
-# Author information
+# Additional configuration for Minimal Mistakes (optional)
 author:
-  name:
-  email: 
+  name: "Your Name"
+  email: "you@example.com"
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-
-# Theme settings
-theme: minimal-mistakes-jekyll
-
-# Social media links (optional)
+# Social Links
 social:
-  github: 
-  linkedin: 
+  github: yourusername
+  linkedin: your-linkedin-username
 
-# Exclude files and directories from the build
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENSE
+# Enable Google Analytics (optional)
+google_analytics: "UA-XXXX-Y"
+
+# Enable Disqus comments (optional)
+disqus:
+  shortname: "your-disqus-shortname"
+
 
