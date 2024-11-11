@@ -1,52 +1,34 @@
-# _config.yml
-
 # Site settings
-title: "Your Site Title"
-description: "A short description of your site."
-baseurl: "" # the subpath of your site, e.g., /blog
-url: "https://yourusername.github.io" # the base URL of your site
+title: My GitHub Pages Site
+description: A brief description of my site
+url: https://yash0211.github.io
+baseurl: "/Projects"
+
+# Author information
+author:
+  name:
+  email: 
 
 # Build settings
-theme: minima # Specify the theme; you can change this to any other installed theme
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
-# Author settings
-author:
-  name: "Your Name"
-  email: "youremail@example.com"
-
-# Social links (optional)
-social:
-  github: yourusername
-  linkedin: your-linkedin-username
-
-# Defaults
-defaults:
-  - scope:
-      path: "" # empty string applies to all files
-    values:
-      layout: "post"
-      author: "Your Name"
-
-# Markdown settings
 markdown: kramdown
-kramdown:
-  input: GFM # GitHub Flavored Markdown
+highlighter: rouge
+permalink: pretty
 
-# Permalinks for URLs
-permalink: /:categories/:title/
+# Theme settings
+theme: jekyll-theme-slate
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+plugins:
+- jekyll-remote-theme
 
-# Exclude specific files or directories from the build
+# Social media links (optional)
+social:
+  github: 
+  linkedin: 
+
+# Exclude files and directories from the build
 exclude:
-  - LICENSE
-  - README.md
   - Gemfile
   - Gemfile.lock
+  - README.md
+  - LICENSE
 
-# Jekyll Feed (for RSS)
-jekyll_feed:
-  path: "/feed.xml"
-
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
