@@ -15,10 +15,7 @@ highlighter: rouge
 permalink: pretty
 
 # Theme settings
-theme: jekyll-theme-slate
-remote_theme: "mmistakes/minimal-mistakes@4.26.2"
-plugins:
-- jekyll-remote-theme
+theme: minimal-mistakes-jekyll
 
 # Social media links (optional)
 social:
